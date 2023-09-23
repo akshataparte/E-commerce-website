@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@400;500;600&family=Rubik:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-top: 10px solid #999;
+}
+
+.container{
+    height: 90vh;
+    width: 70vw;
+  
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+
+.img{
+    height: 300px;
+}
+
+
+.carousel .thumb{
+    width: 5%;
+    height: 50px;
+}
